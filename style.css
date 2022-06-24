@@ -1,0 +1,63 @@
+body {
+    font-family: "Brush Script MT", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 60px;
+    color: #262626;
+    margin: 20px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 10px auto;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.cell {
+    font-family: "Permanent Marker", "Brush Script MT", sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #b8b8b8;
+    border: 2px solid #b8b8b8;
+    border-radius: 3px;
+    left: -1px;top: -1px;
+    position: relative;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    margin: 20px auto;
+    color:#262626;
+}
+
+.game--restart {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: #333333;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 6px #b8b8b8;
+}
+
+.game--restart:hover {background-color: #4d4d4d}
+
+.game--restart:active {
+  background-color: #4d4d4d;
+  box-shadow: 0 3px #b8b8b8;
+  transform: translateY(3px);
+}
